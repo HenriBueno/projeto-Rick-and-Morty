@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+header {
+  height: 50vh;
+}
+.title {
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(20, 94, 20);
+  margin-bottom: -3%;
+}
+main {
+  height: 200vh !important;
+  background-image: url("/assets/images/FUNDO_2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  height: 40vh;
+  font-weight: bold;
+  color: rgba(88, 216, 88, 0.534);
+  background-color: rgba(0, 0, 0, 0.911);
+}
+.center-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 130vh;
+  width: 60vw !important;
+}
+
+.card {
+  border: solid 2px rgb(20, 94, 20) !important;
+  width: 90%;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 10%;
+}
+.card-body {
+  height: 30vh;
+  background-color: black;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.alive-dot {
+  background-color: #8bc34a;
+}
+
+.dead-dot {
+  background-color: #f44336;
+}
+.buttons {
+  position: relative;
+  top: -65%;
+  height: 50px;
+  color: whitesmoke;
+  align-items: center;
+}
